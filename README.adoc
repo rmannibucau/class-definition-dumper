@@ -1,0 +1,26 @@
+= Class Definition Dumper
+
+Goal is to dump debug information to know when classes are defined.
+
+== Usage
+
+[source,sh]
+----
+java -javaagent:/path/to/class-definition-dumper.jar=output=/path/to/output|binary=true|meta=true|includes=com \
+    .......
+----
+
+== Configuration
+
+The agent takes parameter using this pattern: `key=value|key2=value2|...`.
+
+Parameters are:
+
+[options="header"]
+|====
+| Name | Description | Default
+| output | Root folder to output data | $tempDir/ClassDefinitionDumper, subfolders `classes` and `definition` will be used to split next two parameters.
+| binary | Should classes bytecode be dumped | true
+| meta | Should class metadata be dumped | true
+| includes | Comma separated values of included prefixes for class names | -
+|====
