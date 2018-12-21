@@ -116,9 +116,9 @@
   </profiles>
 
   <scm>
-    <connection>scm:git:https://github.com/rmannibucau/cdi2guice.git</connection>
-    <developerConnection>scm:git:https://github.com/rmannibucau/cdi2guice.git</developerConnection>
-    <url>https://github.com/rmannibucau/cdi2guice</url>
+    <connection>scm:git:https://github.com/rmannibucau/class-definition-dumper.git</connection>
+    <developerConnection>scm:git:https://github.com/rmannibucau/class-definition-dumper.git</developerConnection>
+    <url>https://github.com/rmannibucau/class-definition-dumper</url>
     <tag>HEAD</tag>
   </scm>
 
